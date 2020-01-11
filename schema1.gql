@@ -1,0 +1,16 @@
+type Entity1 {
+    id: String!
+
+    name: String
+    regions: [String!]
+
+    spaces: [String]
+    createdAt: String!
+
+    total: Int
+}
+
+type User {
+    name: String!
+    age: Int
+}
